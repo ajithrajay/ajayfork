@@ -165,6 +165,7 @@ const init = function(){
   searchview.addHandlerSearch(controlSearchResults)
   paginationview.addHandlerClick(controlPagination)
   addRecipeView._addHandlerUpload(controlAddRecipe)
+  alert(sdfsdfas)
 }
 init()
 
