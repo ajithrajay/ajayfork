@@ -156,6 +156,12 @@ const controlAddRecipe=async function(newrecipe){
 
   }
 }
+const newdfs = function(){
+  console.log('dfsaff');
+
+
+  
+}
 
 const init = function(){
   bookMarksView.addHandlerRender(controlBookmarks)
@@ -165,7 +171,7 @@ const init = function(){
   searchview.addHandlerSearch(controlSearchResults)
   paginationview.addHandlerClick(controlPagination)
   addRecipeView._addHandlerUpload(controlAddRecipe)
-  alert(sdfsdfas)
+  newdfs()
 }
 init()
 
